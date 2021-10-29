@@ -1,0 +1,78 @@
+#navbar {
+  background-color: rgb(54, 90, 54);
+}
+
+.Admin-wrapper{
+  display: flex;
+  height: calc(100% - 66px);
+}
+
+.Admin-wrapper .left-side{
+  flex: 2;
+  background-color: rgb(61, 112, 112);
+}
+.Admin-wrapper .left-side ul{
+  list-style: none;
+  color: bisque;
+  margin: 0px;
+  padding: 0px;
+}
+.Admin-wrapper .left-side ul li a{
+  display: block;
+  border-bottom:1px solid rgb(34, 71, 71);
+  padding: 18px;
+}
+.Admin-wrapper .left-side ul li a:hover {
+  background-color: rgb(18, 29, 29);
+}
+
+.Admin-wrapper .Admin-content{
+  flex: 8;
+  padding: 40px 100px 100px;
+  overflow-y: scroll;
+}
+
+.content .page-title{
+  margin: 30px auto;
+  text-align: center;
+}
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1.1rem;
+}
+
+th, td {
+  padding: 15px;
+  border: 1px solid rgb(177, 173, 173);
+  text-align: left;
+}
+.edit{
+  color: green;
+  transition: all 0.4s;
+}
+.delete{
+  color: red;
+  transition: all 0.4s;
+}
+.publish{
+  color: blue;
+  transition: all 0.4s;
+}
+.edit:hover{
+  text-decoration: underline;
+  transition: all 0.4s;
+}
+.delete:hover{
+  text-decoration: underline;
+  transition: all 0.4s;
+}
+.publish:hover{
+  text-decoration: underline;
+  transition: all 0.4s;
+}
+
+form div{
+  margin-bottom: 15px;
+}
